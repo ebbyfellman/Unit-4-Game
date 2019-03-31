@@ -1,0 +1,61 @@
+body{
+    background-image: url("https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+#crystalsCollector{
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    background-color: purple;
+    width: 500px;
+    text-align: center;
+}
+
+#instructions{
+    background-color: beige;
+    color: blue;
+    width: 750px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#randomNumber{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: red;
+    float: left;
+    margin: 10px;
+}
+
+#score{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: red;
+    float: left;
+    margin: 10px;
+}
+
+#winsLosses{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: red;
+    float: left;
+    margin: 10px;
+    font-size: 24px;
+}
+
+
+#tracking{
+    width: 750px;
+    height: 225px;
+    margin: auto;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}

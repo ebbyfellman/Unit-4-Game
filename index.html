@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+
+
+</head>
+
+<body>
+    <h1 id="crystalsCollector">Crystals Collector!</h1>
+    <div id="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific ammount
+            of points to your total score.
+        </p>
+        <p>You win the game by matching your total score to the random number. You lose the game if your total
+            scoregoes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time the game starts, the game will change the value of each crystal.</p>
+    </div>
+
+    <div id="tracking">
+        <div id="randomNumber"></div>
+        <div id="score"></div>
+        <div id="winsLosses">
+            <p id="wins">Wins: </p>
+            <p id="losses">Losses: </p>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div id="button1">
+                    <img src="assets/images/crystal1.jpg" alt="Crystal1">
+                    <button class="btn"></button>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div id="button2">
+                    <img src="assets/images/crystal2.jpg" alt="Crystal2">
+                    <button class="btn"></button>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div id="button3">
+                    <img src="assets/images/crystal3.jpg" alt="Crystal3">
+                    <button class="btn"></button>
+                </div>
+            </div>
+            <div class="col-sm">
+                    <div id="button4">
+                        <img src="assets/images/crystal4.jpg" alt="Crystal4">
+                        <button class="btn"></button>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
