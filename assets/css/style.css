@@ -12,7 +12,7 @@ body{
 }
 
 #instructions{
-    background-color: beige;
+    background-color: #D59746;
     color: blue;
     width: 750px;
     padding: 10px;
@@ -23,7 +23,7 @@ body{
 #randomNumber{
     width: 200px;
     height: 200px;
-    background-color: white;
+    background-color: #4DA1A9;
     color: red;
     float: left;
     margin: 10px;
@@ -32,7 +32,7 @@ body{
 #score{
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: #4DA1A9;
     color: red;
     float: left;
     margin: 10px;
@@ -41,7 +41,7 @@ body{
 #winsLosses{
     width: 200px;
     height: 200px;
-    background-color: blue;
+    background-color: #4DA1A9;
     color: red;
     float: left;
     margin: 10px;
