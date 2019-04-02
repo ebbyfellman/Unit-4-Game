@@ -5,44 +5,44 @@ body{
 #crystalsCollector{
     color: white;
     padding: 20px;
-    margin: 10px;
-    background-color: purple;
-    width: 500px;
+    margin: auto;
+    background-color: #E55812;
+    width: 900px;
     text-align: center;
 }
 
 #instructions{
-    background-color: #D59746;
+    background-color: #FFC857;
     color: blue;
-    width: 750px;
+    width: 900px;
     padding: 10px;
-    margin: 10px;
+    margin: auto;
     font-weight: bold;
 }
 
 #randomNumber{
-    width: 200px;
+    width: 275px;
     height: 200px;
-    background-color: #4DA1A9;
-    color: red;
+    background-color: #F8FCDA;
+    color: #114B5F;
     float: left;
     margin: 10px;
 }
 
 #score{
-    width: 200px;
+    width: 275px;
     height: 200px;
-    background-color: #4DA1A9;
-    color: red;
+    background-color: #F8FCDA;
+    color: #114B5F;
     float: left;
     margin: 10px;
 }
 
 #winsLosses{
-    width: 200px;
+    width: 275px;
     height: 200px;
-    background-color: #4DA1A9;
-    color: red;
+    background-color: #F8FCDA;
+    color: #114B5F;
     float: left;
     margin: 10px;
     font-size: 24px;
@@ -50,7 +50,7 @@ body{
 
 
 #tracking{
-    width: 750px;
+    width: 900px;
     height: 225px;
     margin: auto;
 }
